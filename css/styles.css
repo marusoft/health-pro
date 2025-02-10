@@ -1,0 +1,52 @@
+/* css reset */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --background-color: #E5E5E5;
+  --text-color: #000000;
+  --font-family: "Courier New", Courier, monospace;
+  --font-weight: bold;
+  --list-style-type: none;
+  --text-decoration: none;
+  --font-size: 1.2rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 2.5rem;
+}
