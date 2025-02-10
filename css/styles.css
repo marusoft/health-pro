@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 :root {
-  --background-color: #E5E5E5;
+  --background-color: #e5e5e5;
   --text-color: #000000;
   --font-family: "Courier New", Courier, monospace;
   --font-weight: bold;
@@ -49,4 +49,20 @@ h6 {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 2.5rem;
+}
+/* landing styles start */
+header {
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 70px;
+  height: 70px;
+}
+.lists {
+  display: flex;
+  gap: 1.2rem;
 }
